@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "5dee25ffb8095ad930bbb07329b5813b"
-application_url = "https://studies-pending-suggestion-matrix.trycloudflare.com"
+application_url = "https://v0-testapp.vercel.app/"
 embedded = true
 name = "2025apptest"
 handle = "2025apptest"
@@ -23,9 +23,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://studies-pending-suggestion-matrix.trycloudflare.com/auth/callback",
-  "https://studies-pending-suggestion-matrix.trycloudflare.com/auth/shopify/callback",
-  "https://studies-pending-suggestion-matrix.trycloudflare.com/api/auth/callback"
+  "https://v0-testapp.vercel.app/auth/callback",
+  "https://v0-testapp.vercel.app/auth/shopify/callback",
+  "https://v0-testapp.vercel.app/api/auth/callback"
 ]
 
 [pos]
